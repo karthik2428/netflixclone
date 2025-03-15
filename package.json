@@ -1,12 +1,18 @@
 {
   "name": "netflix-clone",
+<<<<<<< HEAD
   "homepage": "https://karthik2428.github.io/netflixclone",
+=======
+>>>>>>> 5a2437b008305c1adb8d863c014b5babdb92e855
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> 5a2437b008305c1adb8d863c014b5babdb92e855
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -29,7 +35,10 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> 5a2437b008305c1adb8d863c014b5babdb92e855
     "globals": "^15.14.0",
     "vite": "^6.0.5"
   }
