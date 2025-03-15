@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-import React, { useEffect, Suspense  } from 'react'
-import Home from './Pages/Home/Home';
-=======
 import React, { useEffect } from 'react'
->>>>>>> 5a2437b008305c1adb8d863c014b5babdb92e855
 import Home from './Pages/Home/Home'
 import{Routes,Route, useNavigate} from 'react-router-dom' 
 import Login from './pages/Login/Login'
@@ -28,12 +23,6 @@ function App() {
 
   },[])
   return (
-<<<<<<< HEAD
-    <Suspense fallback={<div>Loading...</div>}>
-
- 
-=======
->>>>>>> 5a2437b008305c1adb8d863c014b5babdb92e855
     <div>
       <ToastContainer theme='dark' />
       <Routes>
@@ -45,10 +34,6 @@ function App() {
       </Routes>
       
     </div>
-<<<<<<< HEAD
-    </Suspense>
-=======
->>>>>>> 5a2437b008305c1adb8d863c014b5babdb92e855
   )
 }
 
